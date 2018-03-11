@@ -1,0 +1,31 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+defaultTasks 'run'
+
+sourceCompatibility = 1.8
+mainClassName = "band.Main"
+applicationName = "sound"
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+        }
+        resources {
+            srcDir 'resources'
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.github.wendykierp:JTransforms:3.1'
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.5'
+}
