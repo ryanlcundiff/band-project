@@ -2,10 +2,10 @@ package band;
 
 import javax.sound.sampled.*;
 
-/**
- * Created by lloyd on 3/3/18.
- * (C) Artify Partners LLC
- */
+
+
+
+
 public class Microphone implements Runnable
 {
   private final MicrophoneListener listener;
