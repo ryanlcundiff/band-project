@@ -3,10 +3,7 @@ package band;
 import javafx.event.Event;
 import javafx.event.EventType;
 
-/**
- * Created by lloyd on 3/12/18.
- * (C) Artify Partners LLC
- */
+
 public class MusicEvent extends Event
 {
   private final double dominantFrequency;

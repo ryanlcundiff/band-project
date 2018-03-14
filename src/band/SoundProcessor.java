@@ -4,10 +4,8 @@ import org.jtransforms.fft.FloatFFT_1D;
 
 import java.util.Arrays;
 
-/**
- * Created by lloyd on 3/12/18.
- * (C) Artify Partners LLC
- */
+
+
 public class SoundProcessor
 {
   private static final double[] OCTAVE_FREQUENCIES = { 32.7032, 65.4064, 130.813, 261.626, 523.251, 1046.5, 2093.0, 4186.01 };
